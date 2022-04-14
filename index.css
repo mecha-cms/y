@@ -1,0 +1,6 @@
+/* Your layout-specific CSS code goes here. */
+
+body > * {
+  margin: 0 auto;
+  max-width: 500px;
+}
