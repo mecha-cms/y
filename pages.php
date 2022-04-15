@@ -44,11 +44,11 @@
             <?php endforeach; ?>
           <?php else: ?>
             <?php if ($site->has('part')): ?>
-              <p role="status">
+              <p>
                 <?= i('No more %s to show.', 'pages'); ?>
               </p>
             <?php else: ?>
-              <p role="status">
+              <p>
                 <?= i('No %s yet.', 'pages'); ?>
               </p>
             <?php endif; ?>
